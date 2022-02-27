@@ -1,7 +1,7 @@
 package com.cydeo.tightly_coupled;
 
 public class Mentor {
-    //has a relation
+    //has a relation with below object that is name COUPLING !!
     FullTimeMentor fullTimeMentor;
     PartTimeMentor partTimeMentor;
 

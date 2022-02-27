@@ -1,6 +1,7 @@
 package com.cydeo.loosly_coupled;
 
 public class MentorAccount {
+    //Loose Coupling
     Mentor mentor;
 
     public MentorAccount(Mentor mentor) {
