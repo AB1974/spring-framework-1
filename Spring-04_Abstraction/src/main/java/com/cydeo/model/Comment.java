@@ -1,2 +1,14 @@
-package com.cydeo.model;public class Comment {
+package com.cydeo.model;
+
+import lombok.Data;
+import org.springframework.stereotype.Component;
+
+@Data
+@Component
+public class Comment {
+    private String author;
+    private String text;
+
+
+
 }

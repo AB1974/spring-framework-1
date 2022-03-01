@@ -13,7 +13,7 @@ public class Java {
     OfficeHours officeHours;
 
     //Constructor injection to the constructor Spring 4.3 @autowired no need it's automatically there in the Spring
-    //@Autowired ===> //@AllArgsConstructor handles everything
+    //@Autowired ===> //@AllArgsConstructor handles everything dependency injection
 
 //    public Java(OfficeHours officeHours) {
 //        this.officeHours = officeHours;
