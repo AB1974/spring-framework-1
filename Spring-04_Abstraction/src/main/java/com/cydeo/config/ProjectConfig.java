@@ -4,7 +4,7 @@ import lombok.AllArgsConstructor;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 
-@AllArgsConstructor
+
 @Configuration
 @ComponentScan(basePackages ="com.cydeo")
 //scan everything under com.cydeo packages

@@ -9,6 +9,7 @@ import lombok.ToString;
 @ToString
 public class Person {
     private String name;
+    //has a relation
     private Car car;
 
 }

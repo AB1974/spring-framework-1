@@ -12,12 +12,13 @@ public class CydeoApp {
         Comment comment = new Comment();
         comment.setAuthor("Johnson");
         comment.setText("Spring Framework");
+
         ApplicationContext context= new AnnotationConfigApplicationContext(ProjectConfig.class);
-//        CommentService cs1= context.getBean(CommentService.class);
-//        CommentService cs2= context.getBean(CommentService.class);
-//    //    BeanObjects are same
-//        System.out.println(cs1==cs2);//true
-//        //if you use Scope("prototype)in comment service // it will create different bean object //->false
+        CommentService cs1= context.getBean(CommentService.class);
+        CommentService cs2= context.getBean(CommentService.class);
+    //    BeanObjects are same
+        System.out.println(cs1==cs2);//true
+        //if you use Scope("prototype)in comment service // it will create different bean object //->false
 
 
 

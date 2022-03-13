@@ -10,17 +10,17 @@ import java.util.ArrayList;
 import java.util.List;
 
 @Controller
-@RequestMapping("/mentor")
-public class MentorController {
+@RequestMapping("/another")
+public class AnotherController {
 
-    @RequestMapping("/list")//localhost:9090/mentor/list
+    @RequestMapping("/list")
     public String showtable (Model model){
 
-        List<Mentor > mentorList = new ArrayList<>();
-        mentorList.add(new Mentor("Mike","Silas",45, Gender.MALE));
-        mentorList.add(new Mentor("Mike","Ball",45, Gender.MALE));
-        mentorList.add(new Mentor("Alperen","Sengun",45, Gender.MALE));
-        mentorList.add(new Mentor("Christian","Wood",45, Gender.MALE));
+        List<Mentor> mentorList = new ArrayList<>();
+        mentorList.add(new Mentor("Mike","Tyson",45, Gender.MALE));
+        mentorList.add(new Mentor("Mike","Tyson",45, Gender.MALE));
+        mentorList.add(new Mentor("Mike","Tyson",45, Gender.MALE));
+        mentorList.add(new Mentor("Mike","Tyson",45, Gender.MALE));
 
         model.addAttribute("mentors",mentorList);
 

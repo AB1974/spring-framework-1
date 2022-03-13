@@ -16,6 +16,6 @@ public class CydeoApp {
 
         Agile ag= context.getBean(Agile.class);
         ag.getTeachingHours();
-
+//context.getBean(Agile.class).getTeachingHours();
     }
 }

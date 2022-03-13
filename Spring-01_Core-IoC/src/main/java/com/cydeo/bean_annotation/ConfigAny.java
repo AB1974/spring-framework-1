@@ -7,6 +7,7 @@ import org.springframework.context.annotation.Configuration;
 public class ConfigAny {
     @Bean
     String str(){
+
         return "Developer";
     }
 

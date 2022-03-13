@@ -22,14 +22,19 @@ public class ConfigCar {
 //        p.setCar(car());
 //        return p;
 //    }
+
+
      //Autowiring Spring is handling
     //pass as a parameter
-
     @Bean
     Person person (Car car) {
         Person p = new Person();
         p.setName("Mike");
          p.setCar(car);
         return p;
+
     }
+
+
+
 }

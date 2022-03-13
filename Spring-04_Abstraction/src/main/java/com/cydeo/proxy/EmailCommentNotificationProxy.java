@@ -10,7 +10,7 @@ import org.springframework.stereotype.Component;
 @Qualifier("EMAIL")
 public class EmailCommentNotificationProxy implements CommentNotificationProxy{
 
-    @Override
+@Override
     public void sendComment(Comment comment) {
         System.out.println("Sending EMAIL notification for comment : "+ comment.getText());
     }
