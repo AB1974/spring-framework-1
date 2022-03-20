@@ -13,7 +13,7 @@ import java.util.List;
 @RequestMapping("/another")
 public class AnotherController {
 
-    @RequestMapping("/list")
+    @RequestMapping("/list")//localhost:9090/another/list
     public String showtable (Model model){
 
         List<Mentor> mentorList = new ArrayList<>();
