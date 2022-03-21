@@ -26,7 +26,8 @@ public class CarController {
 
         return "car/car-info";
     }
-
+//path variable can not be optional
+    //request parameter can be optional
     @RequestMapping("/info/{make}/{year}")      //localhost:8080/car/info/honda/2015
     public String getCarInfo(@PathVariable String make,@PathVariable Integer year, Model model){
         model.addAttribute("make",make);
